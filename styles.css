@@ -945,6 +945,9 @@ body {
 }
 
 @media (max-width:360){
+    .card{
+        height: 60vh;
+    }
     .card .details{
         margin-top:0.5em 1em!important ;
     }
