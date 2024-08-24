@@ -752,6 +752,10 @@ body {
         width: 25em;
     }
 
+    .card{
+        height:30vh ;
+    }
+
     .card img{
         width: 100%;
         padding: 0 2px;
