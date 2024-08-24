@@ -726,7 +726,7 @@ body {
 }
 }
 
-@media (max-width:400px){
+@media (min-width:320)and( max-width:720){
     header{
         font-size: 1em;
         padding: 4px;
@@ -750,10 +750,6 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         width: 25em;
-    }
-
-    .card{
-        height:30vh ;
     }
 
     .card img{
