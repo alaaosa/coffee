@@ -726,7 +726,7 @@ body {
 }
 }
 
-@media (min-width:320)and( max-width:720){
+@media (max-width:400px){
     header{
         font-size: 1em;
         padding: 4px;
