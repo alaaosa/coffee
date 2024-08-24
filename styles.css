@@ -179,7 +179,7 @@ body {
 .details{
     position:absolute;
     display: flex;
-    bottom:35%;
+    bottom:32%;
 }
 .details span{
     font-size: 1.5em;
@@ -484,7 +484,8 @@ body {
 }
 
 .writing{
-    max-width: 390px;
+    width: 100%;
+    max-width: 550px;
     position: inherit;
     margin: 3em 0 0 0;
     letter-spacing: 0.07em;
@@ -761,7 +762,7 @@ body {
         font-weight: 400;
         display: flex;
         position: absolute;
-        top:9em;
+        top:10em;
         left:15%;
         width: 3em;
         padding-left: 2px;
@@ -941,5 +942,10 @@ body {
     font-size: .9em;
     font-weight: 400;
 }
+}
 
+@media (max-width:360){
+    .card .details{
+        margin-top:0.5em 1em!important ;
+    }
 }
