@@ -751,7 +751,7 @@ body {
         background-repeat: no-repeat;
         width: 25em;
     }
-
+/* 
     .card img{
         width: 100%;
         padding: 0 2px;
@@ -856,6 +856,23 @@ body {
         position: absolute;
         left:4em;
         top: 7px;
+    } */
+
+    .content-manu{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card{
+        width: 90%;
+        /* background-color: #444242; */
+        border: 2px white dotted;
+        border-radius: 25px;
+        max-height: 50vh;
+        position: relative;
     }
 
     .about{
@@ -944,11 +961,11 @@ body {
 }
 }
 
-@media (max-width:360){
+/* @media (max-width:360){
     .card{
         height: 60vh;
     }
     .card .details{
         margin-top:0.5em 1em!important ;
     }
-}
+} */
